@@ -1,0 +1,37 @@
+.login-container {
+    width: 30%;
+    height: 75%;
+    background-color: #3c3d44;
+
+    min-width: 500px;
+    min-height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    button {
+        width: 10%;
+        height: 5%;
+        min-width: 64px;
+        min-height: 32px;
+        background-color: #3c3d44;
+        border: solid 2px black;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: bolder;
+        font-style: italic;
+        margin-top: 32px;
+    }
+
+    input {
+        width: 10%;
+        height: 5%;
+    }
+}
