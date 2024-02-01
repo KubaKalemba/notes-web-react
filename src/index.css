@@ -2,11 +2,18 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #1d1d2a;
+}
+
 body {
-  max-width: 1980px;
+  max-width: 2980px;
   margin: 0;
   padding: 0;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #444444;
 }
+
 
 button {
   transition: ease-in-out transform .25s;

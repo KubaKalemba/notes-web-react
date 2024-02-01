@@ -1,0 +1,26 @@
+.note-heading {
+    width: 100%;
+    height: 10%;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 1px black;
+
+    .title {
+        width: 80%;
+        text-align: left;
+        padding-left: 8px;
+    }
+
+}
+
+#delete-note-button {
+    margin-top: 0;
+    border: solid 2px crimson;
+}
+
+.note-heading:hover {
+    background-color: #eaebee;
+    cursor: pointer;
+}

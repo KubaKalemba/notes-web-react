@@ -1,7 +1,7 @@
 .login-container {
     width: 30%;
     height: 75%;
-    background-color: #3c3d44;
+    background-color: #eeeff3;
 
     min-width: 500px;
     min-height: 250px;
@@ -18,7 +18,7 @@
         height: 5%;
         min-width: 64px;
         min-height: 32px;
-        background-color: #3c3d44;
+        background-color: #17be4c;
         border: solid 2px black;
         border-radius: 10px;
         display: flex;
@@ -27,11 +27,35 @@
         text-align: center;
         font-weight: bolder;
         font-style: italic;
+        margin-top: 64px;
+    }
+
+    .submit-button {
+        background-color: whitesmoke;
+        border: solid 2px #17be4c;
+        color: black;
         margin-top: 32px;
     }
 
     input {
-        width: 10%;
-        height: 5%;
+        width: 25%;
+        height: 32px;
+        border: solid 2px #17be4c;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    label {
+        margin-top: 16px;
+        margin-bottom: 2px;
+        width: 24%;
+        text-align: left;
+    }
+
+    .form-label {
+        color: #444444;
+        font-size: 1.5em;
+        font-weight: bold;
+        width: auto;
     }
 }

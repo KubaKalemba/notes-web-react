@@ -8,7 +8,8 @@ import NoteHeading from "./components/NoteHeading";
 function App() {
   const [count, setCount] = useState(0)
 
-    const [loggedIn, setLoggedIn] = useState(false)
+    const [loggedIn, setLoggedIn] = useState(!localStorage.getItem('token'))
+
 
   return (
     <div className={'App'}>
