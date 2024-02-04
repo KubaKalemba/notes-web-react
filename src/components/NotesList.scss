@@ -1,6 +1,6 @@
 .notes-container {
-    width: 30%;
-    height: 75%;
+    width: 100%;
+    height: 100%;
     background-color: #eeeff3;
 
     min-width: 500px;
@@ -11,21 +11,53 @@
     align-items: center;
     justify-content: center;
 
-    border-radius: 10px;
-
     button {
         width: 5%;
         height: 5%;
         min-width: 64px;
         min-height: 32px;
-        background-color: #eeeff3;
-        border: solid 2px #17be4c;
+        background-color: var(--bgColor);
+        border: solid 2px var(--secondaryColor);
         border-radius: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
         font-weight: bolder;
-        margin-top: 64px;
     }
+}
+
+
+.notes-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+
+    button {
+        width: 1em;
+        border-radius: 50%;
+    }
+}
+
+.notes {
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+
+    background-color: whitesmoke;
+}
+
+.notes-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20%;
 }

@@ -4,7 +4,21 @@
   text-align: center;
   background-color: #1d1d2a;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  height: 10%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.content {
+  height: 80%;
+  width: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
 }

@@ -8,7 +8,7 @@ const NewNote = (props) => {
     console.log(props.selectedNote)
 
     const [note, setNote] = React.useState(props.selectedNote !== -1 ? props.selectedNote.content : "")
-    const [updating, setUpdating] = React.useState(props.selectedNote !== - 1)
+    const [updating] = React.useState(props.selectedNote !== - 1)
 
     const handleChange = (e) => {
         setNote(e.target.value)
@@ -68,6 +68,10 @@ const NewNote = (props) => {
                 <button
                     onClick={saveNote}
                     className={'submit-note-button'}>SAVE</button>
+                <button onClick={() => {
+                    props.goBack
+                    props.delete(props.selectedNote.id)
+                }}>DELETE</button>
         </div>
     );
 };

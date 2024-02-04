@@ -1,0 +1,45 @@
+.settings-container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+
+
+  button {
+    margin-bottom: 48px;
+  }
+
+  label {
+    margin-bottom: 8px;
+    text-align: left;
+  }
+
+  label, input {
+    width: 25%;
+    max-width: 250px;
+  }
+
+  input {
+    margin-bottom: 24px;
+  }
+}
+
+input {
+  height: 48px;
+  padding: 0 16px;
+  font-size: 16px;
+  border: solid 2px #17be4c;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#logout-button {
+  background-color: var(--secondaryColor);
+}
+
+#goback-button {
+  margin-bottom: 16px;
+}

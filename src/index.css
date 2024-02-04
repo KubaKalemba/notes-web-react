@@ -1,9 +1,15 @@
+:root {
+  --bgColor: #f1f2f5;
+  --primaryColor: #1d1d2a;
+  --secondaryColor: #17be4c;
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
-  background-color: #1d1d2a;
+  background-color: var(--bgColor);
 }
 
 body {
