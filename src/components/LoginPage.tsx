@@ -45,6 +45,7 @@ const LoginPage = (props) => {
 
     const submitRegister = async (e) => {
         if(signUpData.signupUsername.length < 2 || signUpData.signupPassword.length < 2 || signUpData.signupName.length < 2) {
+            console.log("wrong credentials")
             return;
         }
         if(!confirm("Do you want to create account for " + loginData.username + "?")) {

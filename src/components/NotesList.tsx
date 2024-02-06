@@ -112,7 +112,10 @@ const NotesList = (props) => {
     }
 
     const noteDivs = notes.map((note) => {
-        return <NoteHeading key={note.id} title={note.content} noteid={note.id} refresh={refreshNotesList} selectNote={selectNote} delete={deleteNote}/>;
+        return <NoteHeading key={note.id}
+                            title={note.content.length > 25 ? note.content.slice(0,25) + "..." : note.content}
+                            noteid={note.id}
+                            refresh={refreshNotesList} selectNote={selectNote} delete={deleteNote}/>;
     });
 
 
